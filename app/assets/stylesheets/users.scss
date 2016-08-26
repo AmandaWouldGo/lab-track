@@ -1,0 +1,129 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/***********************************************/
+/************* Set page defaults ***************/
+/***********************************************/
+html, body, div, span, label,
+h1, h2, h3, h4, h5, h6, p, ol, ul, li,
+fieldset, form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+
+body{
+  background-image: url(http://wallpaperus.org/wallpapers/07/73/plants-lab-1920x1080-wallpaper-2148832.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1, h2 {
+  font-weight: bold;
+  align-items: center;
+  font-size: 130%;
+  text-shadow: 
+  -.3px -.3px .3px #111;
+}
+
+
+.submit {
+  text-align: center;
+}
+
+.index-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: #E0E0E0;
+  width: 40%;
+  opacity: .9;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border:1.5px solid #6B7C6E;
+  border-radius: 30px;
+  padding: .5%
+}
+
+
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Verdana", sans-serif;
+}
+
+.form-row {
+  display: block;
+  margin-bottom: 1vh;
+  font-weight: bold;
+  margin-bottom: -1px;
+}
+
+.form-row label {
+  display: inline-block;
+  width: 15vw;
+  padding-top: 5px;
+}
+
+.text-field {
+  display: inline-block;
+  width: 15vw;
+}
+
+#title a {
+  color: #085B72;
+  font-style: "Verdana";
+  font-size: 110%;
+  text-decoration: none;
+   text-shadow: 
+ -.3px -.3px .3px #111; 
+}
+
+#title a:hover {
+  color: #2195AF;
+  text-decoration: underline;
+}
+
+#intro {
+  margin-bottom: 25px;
+}
+
+
+.header {
+ border:2px solid #6B7C6E;
+ background-color: #519174;
+ opacity: .9;
+ font-family: "Tahoma";
+ font-size: 120%;
+ text-align: center;
+ padding: 1%;
+ text-shadow: 
+ -.5px -.5px .5px #111; 
+}
+
+.header a {
+  text-decoration: none;
+  color: #91FFCB;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  color: #2195AF;
+}
+

@@ -1,0 +1,49 @@
+<div class="index-container">
+
+<div class="form-container">
+  <h1>Create Proposal Here</h1>
+
+  <%= form_for :proposal, url: proposals_path do |f| %>
+    <p>
+      <%= f.label :title %><br>
+      <%= f.text_field :title %>
+    </p>
+
+    <p>
+      <%= f.label :abstract %><br>
+      <%= f.text_area :abstract %>
+    </p>
+
+    <p>
+      <%= f.label :intro %><br>
+      <%= f.text_area :intro %>
+    </p>
+
+    <p>
+      <%= f.label :hypothesis %><br>
+      <%= f.text_area :hypothesis %>
+    </p>
+
+    <p>
+      <%= f.label :method %><br>
+      <%= f.text_area :exp_method %>
+    </p>
+
+    <p>
+      <%= f.label :date_start %><br>
+      <%= f.date_field :date_start %>
+    </p>
+
+    <p>
+      <%= f.label :date_end %><br>
+      <%= f.date_field :date_end %>
+    </p>
+
+  <div class="submit">
+    <p>
+      <%= f.submit %>
+    </p>
+  </div>
+  <% end %>
+</div>
+</div>
